@@ -1,0 +1,123 @@
+﻿Discovering target: Default
+Discovering tests from assembly: C:\Users\1\Desktop\BetclicAutomation\BetclicAutomation\bin\Debug\BetclicAutomation.dll
+Appdomain Disposed
+Test Suite Dump
+#0: BetclicAutomation/Default - 
+#1: Default - 
+#2: BetclicAutomation - 
+#3: Google Calculator - 
+#8: Wikipedia - 
+#10: AmazonSteps - 
+#4: Verify all methods from calculator, Variant 0 - TestAssembly:BetclicAutomation/Feature:Google+Calculator/Scenario:Verify+all+methods+from+calculator%2c+Variant+0
+#5: Verify all methods from calculator, Variant 1 - TestAssembly:BetclicAutomation/Feature:Google+Calculator/Scenario:Verify+all+methods+from+calculator%2c+Variant+1
+#6: Verify all methods from calculator, Variant 2 - TestAssembly:BetclicAutomation/Feature:Google+Calculator/Scenario:Verify+all+methods+from+calculator%2c+Variant+2
+#7: Verify all methods from calculator, Variant 3 - TestAssembly:BetclicAutomation/Feature:Google+Calculator/Scenario:Verify+all+methods+from+calculator%2c+Variant+3
+#9: Verify Roman Numerals - TestAssembly:BetclicAutomation/Feature:Wikipedia/Scenario:Verify+Roman+Numerals
+#11: Verify Amazon basket - TestAssembly:BetclicAutomation/Feature:AmazonSteps/Scenario:Verify+Amazon+basket
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread
+Thread#0:Scheduler: using testitem #4 for thread
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for BetclicAutomation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\1\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.5.2\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:B:Given Open the google site
+Thread#0:T:done: NavigationSteps.OpenSite("google") (4,3s)
+Thread#0:B:When Search '4 + 9'
+Thread#0:T:done: CalculatorSteps.SearchSomeText("4 + 9") (0,1s)
+Thread#0:B:Then Verify that the calculation result is '13'
+Thread#0:T:done: CalculatorSteps.VerifyCalculationResult("13") (1,1s)
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: testitem #5 from normal test queue 
+Thread#0:Scheduler: considering testitem #5 for thread
+Thread#0:Scheduler: using testitem #5 for thread
+Thread#0:Scheduler: Test #5 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #4/0 is finished on thread #0 as Succeeded within 9,0965151 seconds
+Thread#0: Test #5/0 is started on thread #0
+Thread#0:B:Given Open the google site
+Thread#0:T:done: NavigationSteps.OpenSite("google") (4,5s)
+Thread#0:B:When Search '10 - 3'
+Thread#0:T:done: CalculatorSteps.SearchSomeText("10 - 3") (0,1s)
+Thread#0:B:Then Verify that the calculation result is '7'
+Thread#0:T:done: CalculatorSteps.VerifyCalculationResult("7") (1,2s)
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: testitem #6 from normal test queue 
+Thread#0:Scheduler: considering testitem #6 for thread
+Thread#0:Scheduler: using testitem #6 for thread
+Thread#0:Scheduler: Test #6 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #5/0 is finished on thread #0 as Succeeded within 8,6391854 seconds
+Thread#0: Test #6/0 is started on thread #0
+Thread#0:B:Given Open the google site
+Thread#0:T:done: NavigationSteps.OpenSite("google") (4,1s)
+Thread#0:B:When Search '4 * 6'
+Thread#0:T:done: CalculatorSteps.SearchSomeText("4 * 6") (0,1s)
+Thread#0:B:Then Verify that the calculation result is '24'
+Thread#0:T:done: CalculatorSteps.VerifyCalculationResult("24") (1,5s)
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: testitem #7 from normal test queue 
+Thread#0:Scheduler: considering testitem #7 for thread
+Thread#0:Scheduler: using testitem #7 for thread
+Thread#0:Scheduler: Test #7 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #6/0 is finished on thread #0 as Succeeded within 8,4648071 seconds
+Thread#0: Test #7/0 is started on thread #0
+Thread#0:B:Given Open the google site
+Thread#0:T:done: NavigationSteps.OpenSite("google") (3,9s)
+Thread#0:B:When Search '9 / 2'
+Thread#0:T:done: CalculatorSteps.SearchSomeText("9 / 2") (0,1s)
+Thread#0:B:Then Verify that the calculation result is '4.5'
+Thread#0:T:done: CalculatorSteps.VerifyCalculationResult("4.5") (1,0s)
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: testitem #9 from normal test queue 
+Thread#0:Scheduler: considering testitem #9 for thread
+Thread#0:Scheduler: using testitem #9 for thread
+Thread#0:Scheduler: Test #9 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #7/0 is finished on thread #0 as Succeeded within 7,8736453 seconds
+Thread#0: Test #9/0 is started on thread #0
+Thread#0:B:Given Open the wikipedia site
+Thread#0:T:done: NavigationSteps.OpenSite("wikipedia") (2,3s)
+Thread#0:B:Then Verify that the 'On this day…' section exists
+Thread#0:T:done: WikipediaSteps.VerifySectionIsExist("On this day…") (0,0s)
+Thread#0:B:When Select and click the 1 entry where the year does not have a ‘BC’ suffix
+Thread#0:T:done: WikipediaSteps.SelectAndClickYear(1) (0,3s)
+Thread#0:B:Then Validate that the Roman Numerals match with expected
+Thread#0:T:done: WikipediaSteps.VerifyRomanNumerals() (0,3s)
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: testitem #11 from normal test queue 
+Thread#0:Scheduler: considering testitem #11 for thread
+Thread#0:Scheduler: using testitem #11 for thread
+Thread#0:Scheduler: Test #11 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #9/0 is finished on thread #0 as Succeeded within 5,7122454 seconds
+Thread#0: Test #11/0 is started on thread #0
+Thread#0:B:Given Open the amazon site
+Thread#0:T:done: NavigationSteps.OpenSite("amazon") (7,1s)
+Thread#0:B:Then Search for Cucumber
+Thread#0:T:done: AmazonSteps.SearchFor("Cucumber") (0,2s)
+Thread#0:B:When Click on 2 result
+Thread#0:T:done: AmazonSteps.ClickOnResult(2) (1,4s)
+Thread#0:B:Then Add item to the basket
+Thread#0:T:done: AmazonSteps.AddItemToTheBusket() (8,1s)
+Thread#0:B:Then Verify that the chosen item is present in the basket
+Thread#0:T:done: AmazonSteps.VerifyItemsInBusket() (0,7s)
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread 
+Thread#0: Test #11/0 is finished on thread #0 as Succeeded within 20,5001065 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 6
+Succeeded: 6
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 0

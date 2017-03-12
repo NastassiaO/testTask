@@ -1,0 +1,17 @@
+C:\Users\1\Desktop\BetclicAutomation\BetclicAutomation\bin\Debug\Default.srprofile
+C:\Users\1\Desktop\BetclicAutomation\BetclicAutomation\bin\Debug\BetclicAutomation.dll.config
+C:\Users\1\Desktop\BetclicAutomation\BetclicAutomation\bin\Debug\BetclicAutomation.dll
+C:\Users\1\Desktop\BetclicAutomation\BetclicAutomation\bin\Debug\BetclicAutomation.pdb
+C:\Users\1\Desktop\BetclicAutomation\BetclicAutomation\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\1\Desktop\BetclicAutomation\BetclicAutomation\bin\Debug\nunit.framework.dll
+C:\Users\1\Desktop\BetclicAutomation\BetclicAutomation\bin\Debug\SpecRun.SpecFlowPlugin.dll
+C:\Users\1\Desktop\BetclicAutomation\BetclicAutomation\bin\Debug\TechTalk.SpecFlow.dll
+C:\Users\1\Desktop\BetclicAutomation\BetclicAutomation\bin\Debug\TechTalk.SpecRun.dll
+C:\Users\1\Desktop\BetclicAutomation\BetclicAutomation\bin\Debug\WebDriver.dll
+C:\Users\1\Desktop\BetclicAutomation\BetclicAutomation\bin\Debug\WebDriver.Support.dll
+C:\Users\1\Desktop\BetclicAutomation\BetclicAutomation\bin\Debug\nunit.framework.xml
+C:\Users\1\Desktop\BetclicAutomation\BetclicAutomation\bin\Debug\WebDriver.xml
+C:\Users\1\Desktop\BetclicAutomation\BetclicAutomation\bin\Debug\WebDriver.Support.xml
+C:\Users\1\Desktop\BetclicAutomation\BetclicAutomation\obj\Debug\BetclicAutomation.dll
+C:\Users\1\Desktop\BetclicAutomation\BetclicAutomation\obj\Debug\BetclicAutomation.pdb
+C:\Users\1\Desktop\BetclicAutomation\BetclicAutomation\obj\Debug\BetclicAutomation.csprojResolveAssemblyReference.cache
